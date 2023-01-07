@@ -118,7 +118,7 @@ nav a:hover{
     padding-left: 60px;
     padding-top: 60px;
     height: 230px;
-    background-image: linear-gradient(to right,orangered,rgba(200, 155, 9, 0) ),url('images/watch.png');
+    background-image: linear-gradient(to right,orangered,rgba(200, 155, 9, 0) ),url('.../images/watch.png');
 }
 .mindset h3{
     font-size: 45px;
