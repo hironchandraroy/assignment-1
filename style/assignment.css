@@ -1,0 +1,56 @@
+*{
+    margin: 0px;;
+}
+/*navigation bar style */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    background-color: rgb(135, 190, 190);
+}
+nav ul li{
+    padding: 20px;   
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(236, 241, 229);
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    
+}
+
+/* banner style */
+
+.banner{
+    background-image: url('../images/banner/banner2.png');
+    height: 700px;
+    width: 100%;
+    text-align: right; 
+}
+.banner .text{
+    padding-right: 230px;
+    padding-top: 200px;
+    margin-left: 600px;
+}
+.text h1{
+    font-weight: 700;
+    font-size: 65px;
+    
+}
+.text p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 140px;
+    
+}
+.banner .btn-primary{
+    margin-top: 20px;
+    margin-right: 230px;
+    background: #e9c705;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+}
