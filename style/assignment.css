@@ -7,7 +7,7 @@
 nav ul{
     list-style: none;
     display: flex;
-    background-color: rgb(135, 190, 190);
+    background-color: rgb(176, 184, 175);
 }
 nav ul li{
     padding: 20px;   
@@ -27,6 +27,7 @@ nav a:hover{
 
 .banner{
     background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
     height: 700px;
     width: 100%;
     text-align: right; 
@@ -96,7 +97,6 @@ nav a:hover{
     display: flex;
     gap: 50px;
     text-align: center;
-    border: 1px solid red;;
 }
 .plan-item img{
     height: 92px;
@@ -111,4 +111,61 @@ nav a:hover{
     padding-top: 16px;
     font-size: 25px;
     font-weight: 500;
+}
+/*mindset section style */
+.mindset{
+    margin: 130px 200px;
+    padding-left: 60px;
+    padding-top: 60px;
+    height: 230px;
+    background-image: linear-gradient(to right,orangered,rgba(200, 155, 9, 0) ),url('/images/watch.png');
+}
+.mindset h3{
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    padding-right: 400px;
+}
+.mindset button{
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: px;
+    color:orangered;
+}
+/*footer style*/
+
+.footer-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+ .footer-item-1{
+    padding-right: 200px;
+}
+.footer-item-1 h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-item-1 p{
+    font-weight: 350;
+    font-size: 15px;
+    padding-top: 16px;
+}
+.footer-item-1 img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footer-item-2 input{
+    margin-top: 31px;
+    margin-bottom: 16px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.footer-item-2 button{
+    background: #1679bb;
+    border-radius: 5px;
+    padding: 15px;
 }
