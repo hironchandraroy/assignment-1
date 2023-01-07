@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 /*navigation bar style */
 
@@ -156,6 +156,7 @@ nav a:hover{
 .footer-item-1 img{
     margin-top: 20px;
     margin-right: 20px;
+    color: antiquewhite;
 }
 .footer-item-2 input{
     margin-top: 31px;
